@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('C:/Users/Sridhar/Desktop/webp.png'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            color: #333333;
+        }
+        header {
+            background: rgba(43, 45, 45, 0.8);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: rgba(68, 68, 68, 0.8);
+            color: #fff;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: rgba(51, 51, 51, 0.8);
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .section {
+            display: none;
+        }
+        .active {
+            display: block;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <img src="C:/Users/Sridhar/Desktop/varsha.jfif" alt="Profile Image" class="profile-img">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home" onclick="showSection('home')">Home</a></li>
+            <li><a href="#about" onclick="showSection('about')">About</a></li>
+            <li><a href="#education" onclick="showSection('education')">Education</a></li>
+            <li><a href="#projects" onclick="showSection('projects')">Projects</a></li>
+            <li><a href="#resume" onclick="showSection('resume')">Resume</a></li>
+            <li><a href="#certificates" onclick="showSection('certificates')">Certificates</a></li>
+            <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="home" class="section active">
+            <h2>Home</h2>
+            <p>Hello! My name is Varsha, and I am currently pursuing a degree in Engineering with a specialization in Computer Science. With a keen interest in technology and innovation, I am passionate about developing software solutions that solve real-world problems. I enjoy exploring areas such as programming, data analysis, and artificial intelligence. Through my studies and projects, I aim to build a strong foundation in technical skills while fostering creativity and critical thinking. Thank you for visiting my portfolio, and I look forward to connecting</p>
+        </div>
+
+        <div id="about" class="section">
+            <h2>ABOUT ME</h2>
+            <p> <h3><span>Name :</span>varsha sridhar</h3>
+                <h3><span>Age :</span> 20</h3>
+                <h3><span>Qualification :</span> B.E in Computer science</h3>
+                <h3><span>Contact No. :</span>8867100575</h3>
+                <h3><span>Language :</span> kannada, English,telugu,tamil,hindi</h3>
+                <h3><span>Programming languages :</span> C, java, Python </h3>
+                <h3><span>Tools :</span> Windows, Linux, Github</h3></p>
+        </div>
+
+        <div id="education" class="section">
+            <h2>My Education</h2>
+            
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>(2019)</span>
+                <h3>10th</h3>
+                <P>I had Completed my 10th from Gyan SSB INTERNATIONAL SCHOOL with 80% marks</P>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>(2021)</span>
+                <h3>12th </h3>
+                <P> I had Completed my 12th from VISION PU COLLEGE with 94% marks </P>
+            </div>
+            
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>(2021-2025)</span>
+                <h3>Baechlor of engineering(B.E)</h3>
+                <P> I am pursuing my B.E in SJC INSTITUTE OF TECHNOLOGY i am a final year student with current cgpa of 8.86(till-6th sem)  </P>
+            </div>
+        </div>
+
+        <div id="projects" class="section">
+            <h2>My Projects</h2>
+            <ul>
+                <li>
+                    <strong>PLACEMENT MANAGEMENT SYSTEM</strong>
+                    <p>A Placement Management System (PMS) is a software application designed to streamline and automate the placement process for educational institutions, particularly universities and colleges. It serves as a centralized platform for managing student placements, recruitment drives, and employer interactions. Here’s a brief overview of its key features and benefits:</p>
+                </li>
+                <li>
+                    <strong>RESTAURENT MANAGEMENT SYSTEM</strong>
+                    <p>A Restaurant Management System (RMS) is a comprehensive software solution designed to streamline and automate various operations within a restaurant. It helps manage day-to-day tasks, enhances customer service, and improves overall efficiency. Here’s a brief overview of its key features and benefits:</p>
+                </li>
+                <li>
+                    <strong>IRIS RECOGNITION USING DEEP LEARNING</strong>
+                    <p>An iris recognition system is a biometric technology that identifies individuals based on the unique patterns in their irises. Leveraging deep learning techniques enhances the accuracy and efficiency of iris recognition.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div id="resume" class="section">
+            <h2>My Resume</h2>
+            <p>Here you can find details about my professional background.</p>
+            <h3>Download Your Resume</h3>
+            <p><a href="file:///C:/Users/Sridhar/Downloads/VARSHA%20S%20%20CV.pdf" download>Click here to download my resume</a></p>
+        </div>
+
+        <div id="certificates" class="section">
+            <h2>My Certificates</h2>
+            <ul>
+                <li>
+                    <strong>Certificate in System Security</strong> - Issued by swayam NPTEL, 2024
+                    <br>
+                    <img src="C:\Users\Sridhar\Desktop\NPTEL.jfif" alt="Certificate in System Security" style="max-width: 300px; display: block; margin-top: 10px;">
+                </li>
+                <li>
+                    <strong>Certification in Python</strong> - Issued by AQMENZ automation pvt limited, 2023
+                    <br>
+                    <img src="C:\Users\Sridhar\Desktop\PYTHON.jfif" alt="Certification in Python" style="max-width: 300px; display: block; margin-top: 10px;">
+                </li>
+                <li>
+                    <strong>Certification in java</strong> - Issued by INFOSYS SPRINGBOARD, 2023
+                    <br>
+                    <img src="C:\Users\Sridhar\Desktop\JAVA.jfif" alt="Certification in java" style="max-width: 300px; display: block; margin-top: 10px;">
+                </li>
+                <li>
+                    <strong>Certification in computer networking</strong> - Issued by CISCO, 2024
+                    <br>
+                    <img src="C:\Users\Sridhar\Desktop\CISCO.jfif" alt="Certification in computer networking" style="max-width: 300px; display: block; margin-top: 10px;">
+                </li>
+                <li>
+                    <strong>Certification in Database management system</strong> - Issued by GREAT LEARNING, 2024
+                    <br>
+                    <img src="C:\Users\Sridhar\Desktop\DBMS.jfif" alt="Certification in Database management system" style="max-width: 300px; display: block; margin-top: 10px;">
+                </li>
+            </ul>
+        </div>
+
+        <div id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p>You can reach me at: <a href="mailto:varshasridhar28@gmail.com">varshasridhar28@gmail.com</a></p>
+            <p>Phone: 8867100575</p>
+            <form onsubmit="handleSubmit(event)">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Varsha Sridhar</p>
+    </footer>
+
+    <script>
+        function showSection(section) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach((sec) => {
+                sec.classList.remove('active');
+            });
+            document.getElementById(section).classList.add('active');
+        }
+
+        function handleSubmit(event) {
+            event.preventDefault();
+            alert('Form submitted!'); // Replace this with your form handling logic
+        }
+    </script>
+</body>
+</html>
